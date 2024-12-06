@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OcéanBody interactif</title>
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header>
+    <h1>🌊 OcéanBody interactif</h1>
+    <p >Cliquez sur le corps humain pour découvrir son lien avec l'océan.</p>
+  </header>
+
+  <main>
+    <section class="block">
+    <div id="left-panel">
+      <img 
+        src="human-body-removebg-preview.png" 
+        alt="Human Body Mascot" 
+        id="human-body"
+      >
+      <div class="clickable" id="heart" data-info="circulatory"></div>
+      <div class="clickable" id="lungs" data-info="respiratory"></div>
+      <div class="clickable" id="stomach" data-info="digestive"></div>
+      <div class="clickable" id="brain" data-info="brain"></div>
+      <div class="clickable" id="liver" data-info="liver"></div>
+      <div class="clickable" id="skin" data-info="skin"></div>
+    </div>
+    
+  
+    
+    <div id="info-panel">
+      <h2>Explorez la connexion</h2>
+      <p>Cliquez sur une partie du corps pour en savoir plus !</p>
+    </div>
+  </section>
+  
+
+  <section id="podcast" class="podcast-section">
+    <h2>Podcast</h2>
+    <div class="podcast-container">
+      <audio controls>
+        <source src="https://we.tl/t-OIFJXjnkko" type="audio/mpeg">
+        Votre navigateur ne supporte pas la lecture audio.
+      </audio>
+    </div>
+  </section>
+  </main>
+
+  <footer>
+    <p>© 2024 OcéanBody interactif</p>
+  </footer>
+
+  <script src="site.js"></script>
+</body>
+</html>
